@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.globant.training.app.SeleniumBasicTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="doGoogleSearch"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.globant.training.app.SeleniumBasicTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

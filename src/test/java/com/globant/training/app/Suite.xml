@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Globant TestNg" verbose="1">
+ <test name="Basic Test">
+    <classes>
+      <class name="com.globant.training.app.AppTest"/>
+    </classes>
+  </test>
+<test name="Browser Test" verbose="1">
+    <classes>
+      <class name="com.globant.training.app.SeleniumBasicTest"/>
+    </classes>
+  </test>
+</suite>

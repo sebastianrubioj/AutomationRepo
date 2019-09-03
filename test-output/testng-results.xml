@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Globant TestNg" duration-ms="9127" started-at="2019-07-08T18:25:58Z" finished-at="2019-07-08T18:26:07Z">
+    <groups>
+    </groups>
+    <test name="Basic Test" duration-ms="30" started-at="2019-07-08T18:25:58Z" finished-at="2019-07-08T18:25:58Z">
+      <class name="com.globant.training.app.AppTest">
+        <test-method status="PASS" signature="additionTest()[pri:0, instance:com.globant.training.app.AppTest@457e2f02]" name="additionTest" duration-ms="10" started-at="2019-07-08T18:25:58Z" finished-at="2019-07-08T18:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionTest -->
+      </class> <!-- com.globant.training.app.AppTest -->
+    </test> <!-- Basic Test -->
+    <test name="Browser Test" duration-ms="9063" started-at="2019-07-08T18:25:58Z" finished-at="2019-07-08T18:26:07Z">
+      <class name="com.globant.training.app.SeleniumBasicTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.globant.training.app.SeleniumBasicTest@343f4d3d]" name="beforeMethod" is-config="true" duration-ms="6731" started-at="2019-07-08T18:25:58Z" finished-at="2019-07-08T18:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="doGoogleSearch()[pri:0, instance:com.globant.training.app.SeleniumBasicTest@343f4d3d]" name="doGoogleSearch" duration-ms="1573" started-at="2019-07-08T18:26:04Z" finished-at="2019-07-08T18:26:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [abc] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [abc] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.globant.training.app.SeleniumBasicTest.doGoogleSearch(SeleniumBasicTest.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doGoogleSearch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.globant.training.app.SeleniumBasicTest@343f4d3d]" name="afterMethod" is-config="true" duration-ms="754" started-at="2019-07-08T18:26:06Z" finished-at="2019-07-08T18:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.globant.training.app.SeleniumBasicTest -->
+    </test> <!-- Browser Test -->
+  </suite> <!-- Globant TestNg -->
+</testng-results>
