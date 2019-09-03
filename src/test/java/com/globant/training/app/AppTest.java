@@ -16,7 +16,7 @@ public class AppTest{
    public void additionTest() {
        System.out.print("Test: Addition Result -> ");
        try {
-    	   Assert.assertEquals(calc.add(2,2),4);
+    	   Assert.assertEquals(calc.add(2,3),5);
     	} catch (AssertionError e) {
     	    System.out.println("Not equal");
     	    throw e;
